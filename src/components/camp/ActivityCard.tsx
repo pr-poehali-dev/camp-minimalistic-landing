@@ -16,19 +16,17 @@ interface ActivityCardProps {
 
 const ActivityCard = ({ icon, title, description }: ActivityCardProps) => {
   return (
-    <Card className="rounded-3xl border-0 shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 bg-white">
+    <Card className="rounded-3xl border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 bg-white/15 backdrop-blur-md border border-white/20">
       <CardHeader className="text-center pb-4">
         <div className="flex justify-center mb-4">
-          <div className="p-4 bg-sky-50 rounded-2xl">
-            <Icon name={icon as any} size={32} className="text-sky-500" />
+          <div className="p-4 bg-sky-400/20 backdrop-blur-sm rounded-2xl border border-sky-300/30">
+            <Icon name={icon as any} size={32} className="text-sky-200" />
           </div>
         </div>
-        <CardTitle className="text-xl font-bold text-slate-700">
-          {title}
-        </CardTitle>
+        <CardTitle className="text-xl font-bold text-white">{title}</CardTitle>
       </CardHeader>
       <CardContent>
-        <CardDescription className="text-slate-600 text-center leading-relaxed">
+        <CardDescription className="text-gray-100 text-center leading-relaxed">
           {description}
         </CardDescription>
       </CardContent>
