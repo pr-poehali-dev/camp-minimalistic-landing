@@ -5,11 +5,11 @@ import { campActivities } from "@/constants/campData";
 const ActivitiesSection = () => {
   return (
     <section className="py-20 px-6 max-w-7xl mx-auto">
-      <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 mb-16 border border-white/20">
+      <div className="bg-emerald-900/20 backdrop-blur-md rounded-3xl p-8 mb-16 border border-amber-300/30">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 text-center">
           Программа смены
         </h2>
-        <p className="text-xl text-gray-100 max-w-3xl mx-auto text-center">
+        <p className="text-xl text-amber-100 max-w-3xl mx-auto text-center">
           Каждый день наполнен активностями, которые помогут раскрыть твой
           потенциал и создать незабываемые воспоминания
         </p>

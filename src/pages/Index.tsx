@@ -13,7 +13,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-600 via-gray-700 to-gray-800">
+    <div className="min-h-screen bg-gradient-to-br from-emerald-800 via-amber-900 to-orange-800">
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
         <HeroSection onRegisterClick={handleRegisterClick} />
         <ActivitiesSection />
