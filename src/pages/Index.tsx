@@ -20,6 +20,7 @@ import {
   Users,
   Compass,
   Camera,
+  Flame,
   Campfire,
   Sunset,
 } from "lucide-react";
@@ -52,7 +53,7 @@ const Index = () => {
         "Запечатлеваем красоту природы и создаём незабываемые воспоминания",
     },
     {
-      icon: <Campfire className="w-8 h-8 text-sky-500" />,
+      icon: <Flame className="w-8 h-8 text-sky-500" />,
       title: "Вечера у костра",
       description:
         "Делимся историями, поём песни и наслаждаемся звёздным небом",
